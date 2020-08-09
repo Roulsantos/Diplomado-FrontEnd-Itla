@@ -1,0 +1,44 @@
+h1,
+h2 {
+    text-align: center;
+}
+
+body {
+    background: #00B4DB;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0083B0, #00B4DB);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#content {
+    margin-top: 40px;
+}
+
+.checked-task,
+.checked-task:hover {
+    float: right;
+    cursor: pointer;
+    color: aqua;
+    font-size: 18px;
+    font-weight: bold;
+    padding-right: 5px;
+}
+
+.remove-task,
+.remove-task:hover {
+    float: right;
+    cursor: pointer;
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+.complete-task,
+.complete-task:hover {
+    cursor: pointer;
+    color: grey;
+    text-decoration-line: line-through;
+}

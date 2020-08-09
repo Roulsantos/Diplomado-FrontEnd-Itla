@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(img/bg-principal.jpg);
+    background-size: cover;
+    background-image: fixed;
+}
+
+.contenedor {
+    margin: 100px auto;
+    text-align: center;
+}
+
+.contenedor .form .formulario-header .form-title {
+    font-weight: normal;
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+h2 {
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    font-size: 50px;
+}
+
+.contenedor .form {
+    background: rgba(255, 255, 255, 0.151);
+    width: 90%;
+    max-width: 650px;
+    margin: auto;
+    padding: 5px 35px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 6px;
+}
+
+.contenedor .form .form-input,
+textarea {
+    display: block;
+    position: relative;
+    margin: 10px 10px;
+    background: rgba(255, 255, 255, 0.685);
+    border-radius: 3px;
+    border: none;
+    border-bottom: 5px solid rgb(0, 0, 0);
+    width: 95%;
+    padding: 12px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border: none;
+    border-radius: 3px;
+    width: 150px;
+    color: rgb(0, 0, 0);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.btn:hover {
+    background-color: rgb(0, 0, 0);
+    transition: 1s ease;
+    color: white;
+}
